@@ -102,3 +102,15 @@ namespace MatrixOOP
         }
     }
 }
+
+public class Program
+{
+    static void Main()
+    {
+        var m1 = new Matrix("/Users/kkamilka/Projects/Matrix/Matrix/test.txt");
+        Console.WriteLine(m1);
+        m1.ReplacePrimesInMatrix();
+        Console.WriteLine(m1);
+    }
+}
+
